@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Indian Clothing Store</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sarees">Sarees</a></li>
+            <li><a href="#salwar-kameez">Salwar Kameez</a></li>
+        </ul>
+    </nav>
+
+    <section id="sarees">
+        <h2>Sarees</h2>
+        <div class="product">
+            <img src="saree1.jpg" alt="Saree 1">
+            <h3>Saree Type 1</h3>
+            <p>Description of Saree Type 1</p>
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more sarees here -->
+    </section>
+
+    <section id="salwar-kameez">
+        <h2>Salwar Kameez</h2>
+        <div class="product">
+            <img src="salwar1.jpg" alt="Salwar Kameez 1">
+            <h3>Salwar Kameez Type 1</h3>
+            <p>Description of Salwar Kameez Type 1</p>
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more salwar kameez here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Indian Clothing Store</p>
+    </footer>
+</body>
+</html>
